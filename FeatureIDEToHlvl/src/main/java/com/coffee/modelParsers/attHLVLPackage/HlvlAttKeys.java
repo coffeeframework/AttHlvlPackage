@@ -1,7 +1,8 @@
 package com.coffee.modelParsers.attHLVLPackage;
 
+import com.github.coffeeframework.basickhlvlpackage.HlvlBasicKeys;
 
-public interface HlvlAttKeys{
+public interface HlvlAttKeys extends HlvlBasicKeys{
 	
 	/**
 	 * Form to declare a element with attributes

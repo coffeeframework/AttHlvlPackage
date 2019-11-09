@@ -1,6 +1,6 @@
 package com.coffee.modelParsers.attHLVLPackage;
 
-import com.coffee.modelParsers.basicHLVLPackage.HlvlBasicFactory;
+import com.github.coffeeframework.basickhlvlpackage.HlvlBasicFactory;
 
 public class HlvlAttFactory extends HlvlBasicFactory implements HlvlAttKeys, IHlvlAttFactory{
 
@@ -24,13 +24,13 @@ public class HlvlAttFactory extends HlvlBasicFactory implements HlvlAttKeys, IHl
 		String out ="";
 		switch (type) {
 		case INTEGER:
-			out= ATT +SPACE + INTEGER + SPACE + identifier+ "\n";
+			out= ATT + SPACE + INTEGER + SPACE + identifier+ "\n";
 			break;
 		case SYMBOLIC:
-			out= ATT +SPACE + SYMBOLIC + SPACE + identifier+ "\n";
+			out= ATT + SPACE + SYMBOLIC + SPACE + identifier+ "\n";
 			break;
 		case STRING:
-			out= ATT +SPACE + STRING + SPACE + identifier+ "\n";
+			out= ATT + SPACE + STRING + SPACE + identifier+ "\n";
 			break;
 	
 		}

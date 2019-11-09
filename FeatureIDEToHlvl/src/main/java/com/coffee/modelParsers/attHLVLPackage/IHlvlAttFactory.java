@@ -1,6 +1,6 @@
 package com.coffee.modelParsers.attHLVLPackage;
 
-import com.coffee.modelParsers.basicHLVLPackage.IHlvlBasicFactory;
+import com.github.coffeeframework.basickhlvlpackage.IHlvlBasicFactory;
 
 public interface IHlvlAttFactory extends IHlvlBasicFactory {
 
@@ -9,7 +9,7 @@ public interface IHlvlAttFactory extends IHlvlBasicFactory {
 	 * with a specific id and type.
 	 * @param identifier Identifier of the attribute required.
 	 * @param type Attribute type that has to be correspondent to the AttType Interface.
-	 * @return
+	 * @return returns a String with the Hlvl syntax for an specific attribute
 	 */
 	public String getAtt(String identifier, AttType type);
 }
